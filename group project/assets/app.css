@@ -1,0 +1,141 @@
+.navbar {
+    height: 100px;
+    background-color: #000;
+}
+
+.navbar-brand img {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: white !important;
+    padding: 0 20px;
+    line-height: 80px;
+}
+
+.nav-link:hover {
+    color: #00C6A7 !important;
+}
+
+
+.dropdown-menu {
+    background-color: #000;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background-color: #00C6A7;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.text-box {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+    color: #333;
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.text-box-survey {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+    color: #333;
+    align-items: center;
+    height: 100%;
+
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container-fluid {
+    width: 100%;
+    max-width: none;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.survey-title {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.survey-form {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px;
+    font-size: 16px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input,
+.radio-items {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.data-table {
+    margin: 20px;
+}
+
+.no-data {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+.viz-title {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+.mb-5 {
+     margin-bottom: 0.4rem !important;
+}
